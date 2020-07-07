@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -26,6 +27,7 @@ namespace DEVIO.UI.AppModelo
             {
                 app.UseDeveloperExceptionPage();
             }
+            var foo = Directory.GetCurrentDirectory();
 
             app.UseStaticFiles();
 

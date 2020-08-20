@@ -1,1 +1,2 @@
-$(document).ready(function () { alert("Teste"); });
+$(document).ready(function () { //alert("Teste");
+});
